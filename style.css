@@ -44,6 +44,9 @@ body, html {
 }
 
 .btn {
-    background-color: white;
+    border: solid 1px white;
+    color: white;
     width: 5vh;
+    font-weight: 900;
+    padding: 0px;
 }
