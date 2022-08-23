@@ -50,3 +50,50 @@ body, html {
     font-weight: 900;
     padding: 0px;
 }
+
+#res2 {
+    display: none;
+}
+
+@media (max-width:1060px) {
+    #text-cont {
+        width: 50%;
+    }
+}
+
+@media (max-width:700px) {
+    #text-cont{
+        width: 70%;
+    }
+    #text-cont h1{
+        font-size: 3em;
+    }
+}
+
+@media (max-width:500px) {
+    #text-cont{
+        width: 90%;
+    }
+    .flexbox {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #text-cont h1{
+        font-size: 3em;
+    }
+    #text-cont p {
+        margin: 2vh 0;
+    }
+    #res {
+        display: none;
+    }
+    #res2 {
+        display: block;
+        margin-left: 2vh;
+    }
+    .flexbox2 {
+        display: flex;
+        flex-direction: row;
+    }
+}
