@@ -16,9 +16,12 @@
     <div id="text-cont">
         <h1>Carrusel</h1>
         <div class="flexbox">
-            <input type="button" class="btn" value="-" onclick="resSec(secAdviser)">
+            <input type="button" class="btn" id="res" value="-" onclick="resSec(secAdviser)">
             <p id="secAdviser"></p>
-            <input type="button" class="btn" value="+" onclick="addSec(secAdviser)">
+            <div class="flexbox2">
+                <input type="button" class="btn" id="add" value="+" onclick="addSec(secAdviser)">
+                <input type="button" class="btn" id="res2" value="-" onclick="resSec(secAdviser)">
+            </div>
         </div>
     </div>
     <script src="./script.js"></script>
